@@ -1,3 +1,9 @@
+
+
+/********************
+	globals
+********************/
+
 html {
 	box-sizing: border-box;
 }
@@ -7,11 +13,23 @@ html {
 
 body {
 	background: #DDDDDD;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p, 
+a {
 	font-family: 'Roboto', sans-serif; 
-	font-size: 16px; 
-	color: #838994; 
 	letter-spacing: 0.03em;
 }
+
+/********************
+	NAVIGATION
+********************/
 
 .top-navigation {
 	margin: 0;
@@ -37,16 +55,15 @@ body {
 .nav-menu > li {
 	display: inline-block;
 	margin-top: 10px;
-	margin-left: 10px;
+	margin-left: 15px;
 }
 
 .nav-menu > li > a {
 	text-decoration: none;
-	font-family: 'Roboto', sans-serif; 
 	font-size: 16px; 
-	letter-spacing: 0.03em;
-	transition: color 0.5s ease;
-	color: #838994; 
+	transition: all 0.5s ease;
+	color: #838994;
+	font-weight: 300;
 }
 
 .nav-menu > li > .active {
@@ -55,7 +72,9 @@ body {
 }
 
 .nav-menu > li > a:hover {
+	cursor: pointer;
 	color: #4c5058;
+	font-weight: 400;
 }
 
 
