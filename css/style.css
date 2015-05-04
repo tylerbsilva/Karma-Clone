@@ -88,8 +88,39 @@ a {
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 460px;
+	height: 650px;
 	overflow: auto;
 }
 
+.introduction h1 {
+	margin-top: 250px;
+}
+
+.introduction h1,
+.introduction h3 {
+	text-align: center;
+	color: #EEEEEE;
+	font-weight: 300;
+}
+
+.introduction .buttons {
+  	text-align: center;
+}
+
+.buttons button {
+	transition: all 0.5s ease;
+	width: 10rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: #EEEEEE;
+	font-size: 1.125rem;
+}
+
+.buttons button:hover {
+	background-color: #C74B23;
+}
 
