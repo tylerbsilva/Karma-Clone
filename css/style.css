@@ -134,18 +134,50 @@ a {
 .cases {
 	padding: 5rem 0;
 	text-align: center;
+	height: 30rem;
 }
 
 .img-list {
-	margin: 2rem auto;
 	list-style: none;
 }
 
 .img-list li {
 	float: left;
 	display: inline-block;
-	list-syle: none;
 	width: 33.33%;
+	height: auto;
 }
 
+/********************
+	Footer
+********************/
+
+.social {
+	text-align: center;
+}
+
+.social h4 {
+	margin: 1rem 0;
+}
+
+.social-icon {
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	padding: .5rem;
+	border-radius: 50%;
+	transition: background 0.5s ease;
+	background: #DDDDDD;
+	color: #FFFFFF;
+}
+
+.social-icon:hover {
+	background: #AAAAAA;
+}
+
+.copy {
+	margin-top: 1rem;
+	font-size: 13px;
+	color: #DDDDDD;
+}
 
