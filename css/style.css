@@ -1,7 +1,7 @@
-
+/* Karma Clone made by Tyler Silva */
 
 /********************
-	globals
+	Globals
 ********************/
 
 html {
@@ -27,6 +27,12 @@ a {
 	letter-spacing: 0.03em;
 }
 
+.content {
+	width: 970px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
 /********************
 	NAVIGATION
 ********************/
@@ -36,12 +42,8 @@ a {
 	background-color: #ffffff;
 }
 
-
 .top-navigation > .content {
-	width: 970px;
 	height: 70px;
-	margin: 0 auto;
-	padding: 0 15px;
 }
 
 .logo {
@@ -77,5 +79,17 @@ a {
 	font-weight: 400;
 }
 
+/********************
+	Introduction
+********************/
+
+.introduction {
+	background-image: url(../img/heroimage.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 460px;
+	overflow: auto;
+}
 
 
